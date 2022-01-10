@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Virtual_Functions.cpp" />
+    <ClCompile Include="Obj_slicing.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="emp.h" />
+    <ClInclude Include="Person.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

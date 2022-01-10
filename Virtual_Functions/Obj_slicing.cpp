@@ -2,8 +2,10 @@
 //
 
 #include <iostream>
-using namespace std;
-int main()
-{
-    std::cout << "Lets Start understanding the virtual functions \n";
+#include "emp.h"
+int main() {
+	Emp chandan("chandan", 25, 1111, 1.15);
+	chandan.printEmp();
+	Person p = chandan;
+	p.printPerson();
 }
